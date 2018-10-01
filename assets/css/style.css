@@ -1,0 +1,150 @@
+
+
+body{
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.cell{
+	border: 2px solid black;
+}
+
+.gamebg{
+	background-color: gray;
+
+}
+
+.mychar{
+	height: 600px;
+}
+
+.enemychar{
+	height: 600px;
+}
+
+
+
+/*noctis image animation data*/
+.noctis{
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 360px;
+    left: 250px;
+    display: block;
+}
+
+
+.noctisattack{
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 330px;
+    width: 630px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    z-index: 1;
+    display: none;
+}
+
+
+.noctisultimate{
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 630px;
+    width: 930px;
+    position: relative;
+    top: 50px;
+    left: 265px;
+    z-index: 1;
+    display: none;
+}
+
+
+
+.noctisheal{
+
+-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 360px;
+    left: 255px;
+    z-index: 1;
+    display: none;
+
+}
+
+
+/*end*/
+
+/*skills*/
+.attackbtn{
+
+	height: 50px;
+	width: 50px;
+
+}
+
+
+.ultimatebtn{
+
+	height: 50px;
+	width: 50px;
+
+}
+
+
+.healbtn{
+
+	height: 50px;
+	width: 50px;
+
+}
+/*end*/
+
+
+
+
+.hud{
+	height: 150px;
+	width: 800px;
+	position: absolute;
+	bottom: 50px;
+	left: -10px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+.glauca{
+	height: 200px;
+    width: 250px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+.glaucaattack{
+	height: 400px;
+    width: 450px;
+    position: relative;
+    top: 180px;
+    left: -385px;
+    display: none;
+}
+
+
+
+
